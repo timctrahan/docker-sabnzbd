@@ -33,7 +33,7 @@ param_volumes:
   - { vol_path: "/downloads", vol_host_path: "<path to downloads>", desc: "Local path for finished downloads." }
 param_usage_include_ports: true
 param_ports:
-  - { external_port: "8080", internal_port: "8080", port_desc: "HTTP port for the WebUI." }
+  - { external_port: "8080", internal_port: "8085", port_desc: "HTTP port for the WebUI." }
   - { external_port: "9090", internal_port: "9090", port_desc: "HTTPS port for the WebUI." }
 param_device_map: false
 cap_add_param: false

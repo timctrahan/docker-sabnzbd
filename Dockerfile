@@ -1,4 +1,4 @@
-FROM lsiobase/ubuntu:bionic
+﻿FROM lsiobase/ubuntu:bionic
 
 # set version label
 ARG BUILD_DATE
@@ -56,5 +56,5 @@ RUN \
 COPY root/ /
 
 # ports and volumes
-EXPOSE 8080 9090
+EXPOSE 8085 9090
 VOLUME /config /downloads /incomplete-downloads
